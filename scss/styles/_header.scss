@@ -1,0 +1,43 @@
+@import "variables";
+header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+
+  .logo {
+    font-size: 28px;
+    margin-top: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    align-items: middle;
+    color: $mycolor1;
+  }
+  .icon {
+    margin-top: 20px;
+    align-items: middle;
+    display: flex;
+    justify-content: space-between;
+    width: 148px;
+    .fa-magnifying-glass {
+      margin-top: 8px;
+    }
+    .fa-heart {
+      margin-top: 7px;
+    }
+  }
+}
+
+nav {
+  display: flex;
+  height: 20px;
+
+  ul {
+    display: flex;
+  }
+  li {
+    display: flex;
+    margin: 20px;
+    align-items: middle;
+  }
+}
