@@ -1,37 +1,46 @@
-@import "variables";
 header {
+  @include goflex;
   height: 80px;
-  display: flex;
-  justify-content: space-between;
   margin-left: 50px;
-
-  .logo {
-    font-size: 28px;
-    margin-top: 15px;
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-    align-items: middle;
-    color: $mycolor1;
+  margin-top: 21px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.logo {
+  font-size: 28px;
+  margin-top: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  align-items: middle;
+  color: $mycolor1;
+}
+.icon {
+  margin-top: 20px;
+  align-items: middle;
+  @include goflex;
+  width: 148px;
+  .fa-magnifying-glass {
+    margin-top: 8px;
   }
-  .icon {
-    margin-top: 20px;
-    align-items: middle;
-    display: flex;
-    justify-content: space-between;
-    width: 148px;
-    .fa-magnifying-glass {
-      margin-top: 8px;
-    }
-    .fa-heart {
-      margin-top: 7px;
-    }
+  .fa-heart {
+    margin-top: 7px;
   }
 }
 
 nav {
   display: flex;
   height: 20px;
+  margin-left: 223px;
 
+  a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    font-style: normal;
+    text-align: left;
+    color: #22262a;
+    font-family: "Poppins", sans-serif;
+  }
   ul {
     display: flex;
   }

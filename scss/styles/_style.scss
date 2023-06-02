@@ -1,5 +1,63 @@
 @import "header";
 body {
-  max-width: 1600px;
+  max-width: 1920px;
   width: 100%;
+}
+.div_back {
+  position: relative;
+  width: 500px;
+  height: 230px;
+  position: absolute;
+  top: 516px;
+  right: 283px;
+  .trend {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+
+    color: $mycolor1;
+  }
+  .collusion {
+    font-family: "Poppins", sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color: $mycolor1;
+  }
+  .p_back {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: $mycolor1;
+  }
+  .click {
+    display: flex;
+    justify-content: space-between;
+    width: 310px;
+    height: 40px;
+    margin-top: 25px;
+  }
+  .click-1 {
+    width: 132px;
+    height: 41px;
+    color: white;
+    background: $mycolor1;
+    text-align: center;
+    padding-top: 12px;
+  }
+  .click-2 {
+    width: 132px;
+    height: 41px;
+    color: white;
+    background: $mycolor1;
+    text-align: center;
+    padding-top: 12px;
+  }
 }

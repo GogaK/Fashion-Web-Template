@@ -231,17 +231,29 @@ a {
           box-sizing: border-box;
 }
 
+.y_p {
+  width: 100%;
+  height: 745px;
+}
+
 header {
-  height: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  text-align: center;
+  height: 80px;
   margin-left: 50px;
+  margin-top: 21px;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
-header .logo {
+
+.logo {
   font-size: 28px;
   margin-top: 15px;
   font-family: "Poppins", sans-serif;
@@ -249,8 +261,10 @@ header .logo {
   -webkit-box-align: middle;
       -ms-flex-align: middle;
           align-items: middle;
+  color: #22262a;
 }
-header .icon {
+
+.icon {
   margin-top: 20px;
   -webkit-box-align: middle;
       -ms-flex-align: middle;
@@ -261,12 +275,13 @@ header .icon {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  text-align: center;
   width: 148px;
 }
-header .icon .fa-magnifying-glass {
+.icon .fa-magnifying-glass {
   margin-top: 8px;
 }
-header .icon .fa-heart {
+.icon .fa-heart {
   margin-top: 7px;
 }
 
@@ -275,6 +290,16 @@ nav {
   display: -ms-flexbox;
   display: flex;
   height: 20px;
+  margin-left: 223px;
+}
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  font-style: normal;
+  text-align: left;
+  color: #22262a;
+  font-family: "Poppins", sans-serif;
 }
 nav ul {
   display: -webkit-box;
@@ -292,6 +317,68 @@ nav li {
 }
 
 body {
-  max-width: 1600px;
+  max-width: 1920px;
   width: 100%;
+}
+
+.div_back {
+  position: relative;
+  width: 500px;
+  height: 230px;
+  position: absolute;
+  top: 516px;
+  right: 283px;
+}
+.div_back .trend {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  color: #22262a;
+}
+.div_back .collusion {
+  font-family: "Poppins", sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  color: #22262a;
+}
+.div_back .p_back {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  color: #22262a;
+}
+.div_back .click {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 310px;
+  height: 40px;
+  margin-top: 25px;
+}
+.div_back .click-1 {
+  width: 132px;
+  height: 41px;
+  color: white;
+  background: #22262a;
+  text-align: center;
+  padding-top: 12px;
+}
+.div_back .click-2 {
+  width: 132px;
+  height: 41px;
+  color: white;
+  background: #22262a;
+  text-align: center;
+  padding-top: 12px;
 }
