@@ -1,0 +1,74 @@
+// section 1
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.section-3 {
+  .s3-text {
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 50px;
+    .w_fashion {
+      font-family: "Poppins", sans-serif;
+      font-size: 15px;
+      font-weight: bold;
+      font-style: normal;
+      text-align: center;
+      color: #22262a;
+    }
+    .shop_our {
+      font-family: "Poppins", sans-serif;
+      font-size: 15px;
+      font-weight: 300;
+      font-style: normal;
+      text-align: center;
+      color: #22262a;
+      padding-top: 5px;
+    }
+  }
+  .s3-img {
+    max-width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .text_under_ph {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    padding-top: 15px;
+    color: #22262a;
+  }
+  .s3-p {
+    padding-top: 15px;
+  }
+  .h4_under_ph {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #22262a;
+    padding-top: 15px;
+  }
+  .price {
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    display: flex;
+    padding-top: 14px;
+    .s3_price {
+      text-decoration-line: line-through;
+    }
+    .s3_price_2 {
+      color: red;
+      padding-left: 3px;
+    }
+  }
+}
