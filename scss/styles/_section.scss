@@ -12,7 +12,7 @@
     margin-bottom: 50px;
     .w_fashion {
       font-family: "Poppins", sans-serif;
-      font-size: 15px;
+      font-size: 20px;
       font-weight: bold;
       font-style: normal;
       text-align: center;
@@ -70,5 +70,117 @@
       color: red;
       padding-left: 3px;
     }
+  }
+}
+
+// SECTION 5
+
+// _____________
+
+.section-5 {
+  margin-top: 110px;
+  margin-bottom: 50px;
+  text-align: center;
+  .s5-wrapper {
+    margin-left: 365px;
+  }
+
+  .avone_styles {
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: #22262a;
+  }
+  .choose_your {
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    color: #22262a;
+    padding-top: 5px;
+  }
+  .sec5-red {
+    padding-top: 120px;
+  }
+  .sec5-cyan {
+    margin-bottom: 200px;
+    padding-left: 25px;
+  }
+  .sec5-blue {
+    position: relative;
+    right: 170px;
+    top: 20px;
+    border: 20px solid white;
+  }
+  .text_left_nike {
+    position: relative;
+    right: 600px;
+    bottom: 70px;
+    text-decoration: underline;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #22262a;
+  }
+}
+
+// _______________
+
+// SECTION 6
+
+.section-6 {
+  margin-top: 120px;
+  .two_girls {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .two_girls_text_wrap {
+    position: relative;
+    bottom: 350px;
+    left: 220px;
+  }
+  .own_this_day {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #22262a;
+  }
+  .tachen {
+    font-family: "Poppins";
+    font-size: 80px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    color: #22262a;
+    padding-top: 20px;
+  }
+  .shop_collection {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #22262a;
+    padding-top: 20px;
+  }
+  .click-3 {
+    width: 132px;
+    height: 41px;
+    color: white;
+    background: $mycolor1;
+    text-align: center;
+
+    width: 200px;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: 25px;
   }
 }

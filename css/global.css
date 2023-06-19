@@ -356,7 +356,7 @@ nav li {
 }
 .section-3 .s3-text .w_fashion {
   font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   font-style: normal;
   text-align: center;
@@ -420,9 +420,112 @@ nav li {
   padding-left: 3px;
 }
 
+.section-5 {
+  margin-top: 110px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.section-5 .s5-wrapper {
+  margin-left: 365px;
+}
+.section-5 .avone_styles {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  color: #22262a;
+}
+.section-5 .choose_your {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  color: #22262a;
+  padding-top: 5px;
+}
+.section-5 .sec5-red {
+  padding-top: 120px;
+}
+.section-5 .sec5-cyan {
+  margin-bottom: 200px;
+  padding-left: 25px;
+}
+.section-5 .sec5-blue {
+  position: relative;
+  right: 170px;
+  top: 20px;
+  border: 20px solid white;
+}
+.section-5 .text_left_nike {
+  position: relative;
+  right: 600px;
+  bottom: 70px;
+  text-decoration: underline;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  color: #22262a;
+}
+
+.section-6 {
+  margin-top: 120px;
+}
+.section-6 .two_girls {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+.section-6 .two_girls_text_wrap {
+  position: relative;
+  bottom: 350px;
+  left: 220px;
+}
+.section-6 .own_this_day {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  color: #22262a;
+}
+.section-6 .tachen {
+  font-family: "Poppins";
+  font-size: 80px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  color: #22262a;
+  padding-top: 20px;
+}
+.section-6 .shop_collection {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  color: #22262a;
+  padding-top: 20px;
+}
+.section-6 .click-3 {
+  width: 132px;
+  height: 41px;
+  color: white;
+  background: #22262a;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  padding-top: 10px;
+  margin-top: 25px;
+}
+
 body {
   max-width: 1920px;
   width: 100%;
+  margin: 0 auto;
 }
 
 .div_back {
@@ -503,7 +606,7 @@ body {
 }
 .section-3 .s3-text .w_fashion {
   font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   font-style: normal;
   text-align: center;
@@ -565,4 +668,106 @@ body {
 .section-3 .price .s3_price_2 {
   color: red;
   padding-left: 3px;
+}
+
+.section-5 {
+  margin-top: 110px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.section-5 .s5-wrapper {
+  margin-left: 365px;
+}
+.section-5 .avone_styles {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  color: #22262a;
+}
+.section-5 .choose_your {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  color: #22262a;
+  padding-top: 5px;
+}
+.section-5 .sec5-red {
+  padding-top: 120px;
+}
+.section-5 .sec5-cyan {
+  margin-bottom: 200px;
+  padding-left: 25px;
+}
+.section-5 .sec5-blue {
+  position: relative;
+  right: 170px;
+  top: 20px;
+  border: 20px solid white;
+}
+.section-5 .text_left_nike {
+  position: relative;
+  right: 600px;
+  bottom: 70px;
+  text-decoration: underline;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  color: #22262a;
+}
+
+.section-6 {
+  margin-top: 120px;
+}
+.section-6 .two_girls {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+.section-6 .two_girls_text_wrap {
+  position: relative;
+  bottom: 350px;
+  left: 220px;
+}
+.section-6 .own_this_day {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  color: #22262a;
+}
+.section-6 .tachen {
+  font-family: "Poppins";
+  font-size: 80px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  color: #22262a;
+  padding-top: 20px;
+}
+.section-6 .shop_collection {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  color: #22262a;
+  padding-top: 20px;
+}
+.section-6 .click-3 {
+  width: 132px;
+  height: 41px;
+  color: white;
+  background: #22262a;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  padding-top: 10px;
+  margin-top: 25px;
 }
