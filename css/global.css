@@ -482,7 +482,8 @@ nav li {
 .section-6 .two_girls_text_wrap {
   position: relative;
   bottom: 350px;
-  left: 220px;
+  left: 200px;
+  height: 1px;
 }
 .section-6 .own_this_day {
   font-family: "Poppins";
@@ -520,6 +521,88 @@ nav li {
   height: 40px;
   padding-top: 10px;
   margin-top: 25px;
+}
+
+.footer {
+  height: 500px;
+  background-color: #f2f8fc;
+  background-size: 1000px;
+}
+.footer .card {
+  width: 700px;
+}
+.footer .wrapper-1 {
+  margin-bottom: 200px;
+  padding-left: 225px;
+  padding-top: 110px;
+}
+.footer .wrapper-1 .footer-logo {
+  font-family: "Poppins";
+  font-size: 22px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  color: #22262a;
+}
+.footer .wrapper-1 .footer-p {
+  width: 420px;
+  padding-top: 15px;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 18px;
+  font-style: normal;
+  text-align: left;
+  color: #22262a;
+}
+.footer .wrapper-1 .loc-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 70px;
+}
+.footer .wrapper-1 .loc-txt .location-text {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  color: #22262a;
+}
+.footer .wrapper-1 .loc-txt .location-text .location-text-right {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  color: #22262a;
+}
+.footer .wrapper-1 .gmail-phone {
+  padding-top: 25px;
+}
+.footer .wrapper-1 .gmail {
+  padding-bottom: 3px;
+  width: 131px;
+}
+.footer .wrapper-1 .phone_number {
+  border-top: 1px solid black;
+  width: 115px;
+  padding-top: 3px;
+}
+.footer .fb_inst {
+  font-family: "Font Awesome 5 Brands";
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  color: #22262a;
+  padding-top: 25px;
+}
+
+.copyright {
+  height: 80px;
+  background-color: #e7f5f8;
+  margin-bottom: 100px;
 }
 
 body {
@@ -588,6 +671,46 @@ body {
   background: #22262a;
   text-align: center;
   padding-top: 12px;
+}
+
+.section-5 {
+  /* Presentational styles */
+}
+.section-5 .text_left_nike {
+  color: #000;
+  position: relative;
+  text-decoration: none;
+}
+.section-5 .text_left_nike::before {
+  background: hsl(45, 100%, 70%);
+  content: "";
+  inset: 0;
+  position: absolute;
+  -webkit-transform: scaleX(0);
+      -ms-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: right;
+      -ms-transform-origin: right;
+          transform-origin: right;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+  z-index: -1;
+}
+.section-5 a:hover::before {
+  -webkit-transform: scaleX(1);
+      -ms-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: left;
+      -ms-transform-origin: left;
+          transform-origin: left;
+}
+
+.geolab_img {
+  width: 50px;
+  height: auto;
+  margin-top: 50px;
 }
 
 .section-2 {
@@ -732,7 +855,8 @@ body {
 .section-6 .two_girls_text_wrap {
   position: relative;
   bottom: 350px;
-  left: 220px;
+  left: 200px;
+  height: 1px;
 }
 .section-6 .own_this_day {
   font-family: "Poppins";
@@ -770,4 +894,86 @@ body {
   height: 40px;
   padding-top: 10px;
   margin-top: 25px;
+}
+
+.footer {
+  height: 500px;
+  background-color: #f2f8fc;
+  background-size: 1000px;
+}
+.footer .card {
+  width: 700px;
+}
+.footer .wrapper-1 {
+  margin-bottom: 200px;
+  padding-left: 225px;
+  padding-top: 110px;
+}
+.footer .wrapper-1 .footer-logo {
+  font-family: "Poppins";
+  font-size: 22px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  color: #22262a;
+}
+.footer .wrapper-1 .footer-p {
+  width: 420px;
+  padding-top: 15px;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 18px;
+  font-style: normal;
+  text-align: left;
+  color: #22262a;
+}
+.footer .wrapper-1 .loc-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 70px;
+}
+.footer .wrapper-1 .loc-txt .location-text {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  color: #22262a;
+}
+.footer .wrapper-1 .loc-txt .location-text .location-text-right {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  color: #22262a;
+}
+.footer .wrapper-1 .gmail-phone {
+  padding-top: 25px;
+}
+.footer .wrapper-1 .gmail {
+  padding-bottom: 3px;
+  width: 131px;
+}
+.footer .wrapper-1 .phone_number {
+  border-top: 1px solid black;
+  width: 115px;
+  padding-top: 3px;
+}
+.footer .fb_inst {
+  font-family: "Font Awesome 5 Brands";
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  color: #22262a;
+  padding-top: 25px;
+}
+
+.copyright {
+  height: 80px;
+  background-color: #e7f5f8;
+  margin-bottom: 100px;
 }

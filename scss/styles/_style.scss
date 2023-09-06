@@ -63,3 +63,36 @@ body {
     padding-top: 12px;
   }
 }
+
+// ANIMATION ..//
+.section-5 {
+  .text_left_nike {
+    color: #000;
+    position: relative;
+    text-decoration: none;
+  }
+
+  .text_left_nike::before {
+    background: hsl(45 100% 70%);
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
+  }
+
+  a:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+
+  /* Presentational styles */
+}
+
+.geolab_img {
+  width: 50px;
+  height: auto;
+  margin-top: 50px;
+}

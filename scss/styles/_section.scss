@@ -135,6 +135,7 @@
 
 .section-6 {
   margin-top: 120px;
+
   .two_girls {
     max-width: 1920px;
     width: 100%;
@@ -143,8 +144,10 @@
   .two_girls_text_wrap {
     position: relative;
     bottom: 350px;
-    left: 220px;
+    left: 200px;
+    height: 1px;
   }
+
   .own_this_day {
     font-family: "Poppins";
     font-size: 18px;
@@ -183,4 +186,90 @@
     padding-top: 10px;
     margin-top: 25px;
   }
+}
+
+.footer {
+  // .card {
+  // }
+  .card {
+    width: 700px;
+  }
+  height: 500px;
+  background-color: #f2f8fc;
+  background-size: 1000px;
+  .wrapper-1 {
+    margin-bottom: 200px;
+    padding-left: 225px;
+    padding-top: 110px;
+    .footer-logo {
+      font-family: "Poppins";
+      font-size: 22px;
+      font-weight: bold;
+      font-style: normal;
+      text-align: left;
+      color: #22262a;
+    }
+    .footer-p {
+      width: 420px;
+      padding-top: 15px;
+
+      font-family: "Poppins";
+      font-size: 15px;
+      font-weight: normal;
+      line-height: 18px;
+      font-style: normal;
+      text-align: left;
+      color: #22262a;
+    }
+    .loc-txt {
+      display: flex;
+      padding-top: 70px;
+      .location-text {
+        font-family: "Poppins";
+        font-size: 15px;
+        font-weight: bold;
+        font-style: normal;
+        text-align: left;
+        color: #22262a;
+        .location-text-right {
+          font-family: "Poppins";
+          font-size: 15px;
+          font-weight: bold;
+          font-style: normal;
+          text-align: left;
+          color: #22262a;
+        }
+      }
+    }
+    .gmail-phone {
+      padding-top: 25px;
+    }
+    .gmail {
+      padding-bottom: 3px;
+      width: 131px;
+    }
+    .phone_number {
+      border-top: 1px solid black;
+      width: 115px;
+      padding-top: 3px;
+    }
+  }
+  .fb_inst {
+    font-family: "Font Awesome 5 Brands";
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #22262a;
+    padding-top: 25px;
+  }
+}
+
+// .shop_help_about {
+// }
+
+.copyright {
+  height: 80px;
+  background-color: #e7f5f8;
+  margin-bottom: 100px;
 }
